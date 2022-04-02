@@ -33,12 +33,16 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0046.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- 最新の CLS 対応は aspect-ratio がベスト！padding-top はもう古い
+- https://coosy.co.jp/blog/cls-aspect-ratio/
+- CSS aspect-ratio プロパティの使い方、レスポンシブやレイアウトシフトで大活躍
+- https://tinyurl.com/yc59y2a7
+- aspect-ratio
+- https://developer.mozilla.org/ja/docs/Web/CSS/aspect-ratio
 
 ## 更新履歴
 

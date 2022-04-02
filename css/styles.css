@@ -196,7 +196,7 @@ select::-ms-expand {
   right: 0;
   overflow: hidden;
 }
-.card {
+.card__inner {
   display: inline-block;
   max-width: 375px;
   max-width: 23.4375rem;
@@ -206,12 +206,21 @@ select::-ms-expand {
   overflow: hidden;
   position: relative;
 }
-.card::before {
+.card__inner::before {
   content: "";
   display: inline-block;
   width: 100%;
   height: 100%;
   background-image: url(/images/Rectangle\ 37@2x.png);
   background-size: cover;
+}
+.card {
+  display: inline-block;
+  max-width: 375px;
+  max-width: 23.4375rem;
+  width: 100%;
+  height: 281.25px;
+  height: 17.578125rem;
+  background-color: #f00;
 }
 /*# sourceMappingURL=styles.css.map */
