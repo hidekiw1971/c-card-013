@@ -176,7 +176,7 @@ select::-ms-expand {
 .wrap {
   text-align: center;
 }
-.card {
+.card__inner {
   display: inline-block;
   max-width: 375px;
   max-width: 23.4375rem;
@@ -186,7 +186,7 @@ select::-ms-expand {
   overflow: hidden;
   position: relative;
 }
-.card::before {
+.card__inner::before {
   content: "";
   display: inline-block;
   width: 100%;
@@ -194,16 +194,24 @@ select::-ms-expand {
   background-image: url(/images/Rectangle\ 37@2x.png);
   background-size: cover;
 }
-.card::after {
-  content: "カテゴリ１";
+.card {
   display: inline-block;
-  color: #fff;
-  max-width: 128px;
-  max-width: 8rem;
+  max-width: 375px;
+  max-width: 23.4375rem;
   width: 100%;
-  background-color: #333;
+  height: 100%;
+  position: relative;
+}
+.card::before {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 10;
+  content: "カテゴリ１";
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  width: 128px;
+  width: 8rem;
 }
 /*# sourceMappingURL=styles.css.map */
