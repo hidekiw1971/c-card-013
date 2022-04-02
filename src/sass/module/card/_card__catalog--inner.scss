@@ -1,0 +1,11 @@
+@use "global" as *;
+.card__catalog--inner {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

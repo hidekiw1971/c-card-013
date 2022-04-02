@@ -3,7 +3,9 @@
   display: inline-block;
   max-width: rem(375);
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4/3;
+  background-color: #f00;
+  overflow: hidden;
   position: relative;
   @include mq(md) {
   }
@@ -11,17 +13,14 @@
   }
 }
 
-// 擬似要素
+// 擬似要素(画像表示)
 .card::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  content: "カテゴリ１";
+  content: "";
   display: inline-block;
-  background-color: #333;
-  color: #fff;
-  width: rem(128);
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/Rectangle\ 37@2x.png);
+  background-size: cover;
   @include mq(md) {
   }
   @include mq(xl) {
