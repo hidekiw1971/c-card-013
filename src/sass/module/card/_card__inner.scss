@@ -1,26 +1,21 @@
 @use "global" as *;
 .card__inner {
   display: block;
-  max-width: rem(375);
   width: 100%;
-  background-color: #f00;
-  overflow: hidden;
+  background-color: #00f;
   position: relative;
+  text-align: right;
   @include mq(md) {
   }
   @include mq(xl) {
   }
 }
 
-// 擬似要素(画像表示)
 .card__inner::before {
   content: "";
   display: block;
-  aspect-ratio: 4/3;
   width: 100%;
-  height: 100%;
-  background-image: url(/images/Rectangle\ 37@2x.png);
-  background-size: cover;
+  aspect-ratio: 4/3;
   @include mq(md) {
   }
   @include mq(xl) {
