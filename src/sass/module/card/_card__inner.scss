@@ -21,3 +21,20 @@
   @include mq(xl) {
   }
 }
+
+.card__inner::after {
+  content: "カテゴリ１";
+  display: inline-block;
+  max-width: rem(100);
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
