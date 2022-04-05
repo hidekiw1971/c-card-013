@@ -1,9 +1,10 @@
 # compornent（共通部品）
 
 ## イメージ画像
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/99580997/161779469-2b629417-28d0-49b1-9ae8-1526c8e5d8a4.png">
+<img width="778" alt="image" src="https://user-images.githubusercontent.com/99580997/161779543-8c04f739-7613-4cc4-a0f0-3327c91aca75.png">
+<img width="1237" alt="image" src="https://user-images.githubusercontent.com/99580997/161779603-df3f6382-6005-42a6-8fdd-56d221e2b144.png">
 
-<img width="408" alt="image" src="https://user-images.githubusercontent.com/99580997/161375908-29676d9b-e800-4f38-81f3-245f941fc5aa.png">
-<img width="781" alt="image" src="https://user-images.githubusercontent.com/99580997/161375922-4c91945b-4c8a-4b57-a8b1-994b27b3b19c.png">
 
 ## 概要
 
@@ -19,7 +20,9 @@
 
 ## 注意事項
 
-- xxx
+- `display: inline-block`、`display: block`の使い分けに注意。
+- 意味なく`display: inline-block`は使わない。
+- これに注意しないと画像の下に隙間ができます。
 
 ## 使い方
 
