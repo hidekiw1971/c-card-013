@@ -1,9 +1,9 @@
 # compornent（共通部品）
 
 ## イメージ画像
+
 <img width="408" alt="image" src="https://user-images.githubusercontent.com/99580997/161375908-29676d9b-e800-4f38-81f3-245f941fc5aa.png">
 <img width="781" alt="image" src="https://user-images.githubusercontent.com/99580997/161375922-4c91945b-4c8a-4b57-a8b1-994b27b3b19c.png">
-
 
 ## 概要
 
@@ -31,12 +31,10 @@
 - https://validator.w3.org/nu/
 - <img width="746" alt="image" src="https://user-images.githubusercontent.com/99580997/161375934-07cd84f0-d202-413b-87d4-6118eec30cd7.png">
 
-
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
 - <img width="948" alt="image" src="https://user-images.githubusercontent.com/99580997/161375951-e498e3c0-e103-42bd-88c0-d5233e412d9c.png">
-
 
 ## portfolio url:
 
@@ -53,7 +51,7 @@
 
 ## 更新履歴
 
-- 2022/4/5 再作成（アスペクト比（※aspect-ratio: 4/3;）当てるところが間違えてた。
+- 2022/4/5 再作成（アスペクト比（※aspect-ratio: 4/3;）当てるところが間違えてたので修正する。
 - 2022/4/2 初版 作成完了(カード（画像（アスペクト比を固定）、カテゴリ）※aspect-ratio: 4/3;)
 
 ## 環境・使い方
